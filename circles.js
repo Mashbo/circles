@@ -67,8 +67,7 @@
                      },
 
   Circles = function(options) {
-    var elId = options.id;
-    this._el = document.getElementById(elId);
+    this._el = options.el;
 
     if (this._el === null) return;
 
